@@ -5,14 +5,14 @@ Finally, somewhere sensible to keep these rather than the post-its on my monitor
 
 ### To view binary files
 xxd -b file.bed
-+
+
 ### To create a symbolic link
 ln -s /path-to-shortcut
-+
+
 ### To move the cursor in the line
 control + a (beginning)
 control + e (end)
-+
+
 ## R
 
 ### To remove rows and columns from a matrix
