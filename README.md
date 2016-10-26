@@ -2,7 +2,7 @@
 Finally, somewhere sensible to keep these rather than the post-its on my screens!
 +
 ## Linux
-+
+
 ### To view binary files
 xxd -b file.bed
 +
@@ -14,7 +14,7 @@ control + a (beginning)
 control + e (end)
 +
 ## R
-+
+
 ### To remove rows and columns from a matrix
 I hit this problem frequently when attempting to make my geographical and Fst matrices even for Isolation By Distance regression
 data <- data[-(R:R),-(C:C)] or [-R:-R,-C:-C]
