@@ -1,6 +1,6 @@
 # random-coding-tips-I-pick-up
-Finally, somewhere sensible to keep these rather than the post-its on my screens!
-+
+Finally, somewhere sensible to keep these rather than the post-its on my monitors!
+
 ## Linux
 
 ### To view binary files
