@@ -16,5 +16,5 @@ control + e (end)
 ## R
 
 ### To remove rows and columns from a matrix
-I hit this problem frequently when attempting to make my geographical and Fst matrices even for Isolation By Distance regression
+I hit this problem frequently when attempting to level out my geographical and Fst matrices for Isolation By Distance regression
 data <- data[-(R:R),-(C:C)] or [-R:-R,-C:-C]
