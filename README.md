@@ -10,8 +10,9 @@ xxd -b file.bed
 ln -s /path-to-shortcut
 
 ### To move the cursor in the line
-control + a (beginning)
-control + e (end)
+  - control + a (beginning)
++
+  - control + e (end)
 
 ## R
 
