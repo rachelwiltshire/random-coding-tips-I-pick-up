@@ -3,6 +3,25 @@ Finally, somewhere sensible to keep these rather than the post-its on my monitor
 
 ## Linux
 
+### FTP transfers
+This took forever on the NCBI website - ever heard of comments? To upload files via ftp:
+- *cd* to the directory on **afs space where the files are located** and type your ftp command: 
+  - ftp ftp-private.ncbi.nlm.nih.gov
+  - name: sra
+  - password: (whatever they give you)
+- create directory on ftp space to move the files:
+  - *mkdir* PRJNAXXXXXX
+- *cd* to the new directory:
+  - *cd* PRJNAXXXXXX
+- effect the transfer:
+  - *mput* < file >
+  
+#### Useful FTP commands
+  - *prompt* > toggles interactive on/off
+  - *put* > transfers one file
+  - *mput* > transfers multiple files
+  - *user* > changes user log in
+
 ### To view binary files
 xxd -b file.bed
 
