@@ -4,7 +4,9 @@ Finally, somewhere sensible to keep these rather than the post-its on my monitor
 ## Linux
 
 ### If you lose your bash commands because of an incorrectly set PATH
-Call the absolute path to the command i.e. **/usr/bin/nano ~/.bashrc**
+Call the absolute path to the command i.e. **/usr/bin/nano ~/.bashrc** and then edit accordingly
+
+Put this in your $PATH i.e. **PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin**
 
 ### FTP transfers
 This took forever on the NCBI website - ever heard of comments? To upload files via ftp:
