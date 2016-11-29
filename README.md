@@ -38,6 +38,9 @@ ln -s /path-to-shortcut
 
 - control + e (end)
 
+### To append output to a file
+command >> newfile.whatever
+
 ## R
 
 ### To remove rows and columns from a matrix
