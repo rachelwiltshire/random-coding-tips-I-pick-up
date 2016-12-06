@@ -52,7 +52,7 @@ This took forever on the NCBI website - ever heard of comments? To upload files 
   [writes the sequence output to a file]
 
 ### To return a column/field from a file
-*cut -f***integer**
+*cut -f***[INT]**
 
 ### To combine two or more files line by line
 *paste* < file.xtn > < file.xtn > **>** < outputfile.xtn > [pipes to standard out if no outfile specified]
