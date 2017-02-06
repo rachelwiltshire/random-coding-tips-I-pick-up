@@ -64,3 +64,6 @@ I hit this problem frequently when attempting to level out my geographical and F
 data
 
 *<- data[-(R:R),-(C:C)] or [-R:-R,-C:-C]*
+
+### Rounding up numbers
+< object > <- *round(< object >,[INT])*
