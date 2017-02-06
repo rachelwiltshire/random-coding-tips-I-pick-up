@@ -3,6 +3,11 @@ Finally, somewhere sensible to keep these rather than the post-its on my monitor
 
 ## Linux
 
+### Transferring files from local to AFS
+*scp* < file > *rwiltshi@opteron.crc.nd.edu***:***/afs/crc.nd.edu/user/r/rwiltshi/< rest of PATH >*
+
+Opteron may change depending on which machine you are logged into i.e. darrow, phillips etc.
+
 ### If you lose your bash commands because of an incorrectly set PATH
 Call the absolute path to the command i.e. ***/usr/bin/nano ~/.bashrc*** and then edit accordingly
 
