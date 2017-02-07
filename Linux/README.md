@@ -61,14 +61,3 @@ This took forever on the NCBI website - ever heard of comments? To upload files 
 
 ### To combine two or more files line by line
 *paste* < file.xtn > < file.xtn > **>** < outputfile.xtn > [pipes to standard out if no outfile specified]
-
-## R
-
-### To remove rows and columns from a matrix
-I hit this problem frequently when attempting to level out my geographical and Fst matrices for Isolation By Distance regression
-data
-
-*<- data[-(R:R),-(C:C)] or [-R:-R,-C:-C]*
-
-### Rounding up numbers
-< object > <- *round(< object >,[INT])*
