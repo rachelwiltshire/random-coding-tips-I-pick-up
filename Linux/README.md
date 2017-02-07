@@ -1,6 +1,3 @@
-# Random-coding-tips-I-pick-up
-Finally, somewhere sensible to keep these rather than the post-its on my monitors!
-
 ## Linux
 
 ### Transferring files from local to AFS
