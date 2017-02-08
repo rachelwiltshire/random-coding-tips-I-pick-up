@@ -23,7 +23,7 @@ This took forever on the NCBI website - ever heard of comments? To upload files 
 - effect the transfer:
   - *mput* < file >
   
-### Useful FTP commands
+#### Useful FTP commands
   - *prompt* > toggles interactive on/off
   - *put* > transfers one file
   - *mput* > transfers multiple files
@@ -76,14 +76,14 @@ All commands must begin with ***control + a*** to distinguish ***screen*** from 
 
 Help can be found here > *man screen*
 
-###Usage
+#### Usage
 
-  1) Command line prompt > *screen*
+   1) Command line prompt > *screen*
 
-  2) Execute program
+   2) Execute program
 
-  3) *control a d* to detach the session from the normal shell
+   3) *control a d* to detach the session from the normal shell
   
-  4) In the normal shell you can list all your active sessions by typing: *screen -ls*
+   4) In the normal shell you can list all your active sessions by typing: *screen -ls*
   
-  5) To leave and finish a session -> *exit*
+   5) To leave and finish a session -> *exit*
