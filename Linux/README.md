@@ -3,12 +3,12 @@
 ## Transferring files from local to AFS
 *scp* < file > *rwiltshi@opteron.crc.nd.edu***:***/afs/crc.nd.edu/user/r/rwiltshi/< rest of PATH >*
 
-Opteron may change depending on which machine you are logged into i.e. darrow, phillips etc.
+Opteron may change depending on which machine you are logged into i.e. rosalind, helios, darrow, phillips etc.
 
 ## If you lose your bash commands because of an incorrectly set PATH
 Call the absolute path to the command i.e. ***/usr/bin/nano ~/.bashrc*** and then edit accordingly
 
-Put this in your $PATH i.e. ***PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin***
+Make sure this in your $PATH i.e. ***/opt/crc/usr/local/bin:/opt/sge/bin/lx-amd64:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/afs/nd.edu/user37/condor/software/bin:/afs/nd.edu/user37/condor/software/sbin***
 
 ## FTP transfers
 This took forever on the NCBI website - ever heard of comments? To upload files via ftp:
