@@ -1,22 +1,24 @@
 ## AFS
-- **kinit user@domain** authenticates *user*; *domain* is CRC.ND.EDU or ND.EDU
+- ***kinit user@domain*** authenticates *user*; *domain* is CRC.ND.EDU or ND.EDU
 
-- **aklog domain** obtains AFS token on *domain* for authorized user
+- ***aklog domain*** obtains AFS token on *domain* for authorized user
 
-- **klist** lists *Kerberos User Authentications*
+- ***klist*** lists *Kerberos User Authentications*
 
-- **tokens** lists AFS tokens held
+- ***tokens*** lists AFS tokens held
 
-- **unlog** destroys current AFS tokens held
+- ***unlog*** destroys current AFS tokens held
 
-- **fs listquota directory** shows space used by AFS volume
+- ***fs listquota directory*** shows space used by AFS volume
 
-- **fs listacl directory** shows Access Control Lists for directory
+- ***fs listacl directory*** shows Access Control Lists for directory
 
 ## ssh
-*ssh user@host* connect to *host* as *user*
-*scp -r files user@hosr:path* copy *files* to *path* on *host* *recursively* as *user*
-*ssh-copy-id user@host* add your key to *host* for *user* to enable a keyed or passwordless login
+- ***ssh user@host*** connect to *host* as *user*
+
+- ***scp -r files user@hosr:path*** copy *files* to *path* on *host* *recursively* as *user*
+
+- ***ssh-copy-id user@host*** add your key to *host* for *user* to enable a keyed or passwordless login
 
 ## System info.
 *date* shows current date and time
