@@ -1,18 +1,24 @@
-# AFS
-*kinit user@domain* authenticates *user*; *domain* is CRC.ND.EDU or ND.EDU
-*aklog domain* obtains AFS token on *domain* for authorized user
-*klist* lists *Kerberos User Authentications*
-*tokens* lists AFS tokens held
-*unlog* destroys current AFS tokens held
-*fs listquota directory* shows space used by AFS volume
-*fs listacl directory* shows Access Control Lists for directory
+## AFS
+- **kinit user@domain** authenticates *user*; *domain* is CRC.ND.EDU or ND.EDU
 
-# ssh
+- **aklog domain** obtains AFS token on *domain* for authorized user
+
+- **klist** lists *Kerberos User Authentications*
+
+- **tokens** lists AFS tokens held
+
+- **unlog** destroys current AFS tokens held
+
+- **fs listquota directory** shows space used by AFS volume
+
+- **fs listacl directory** shows Access Control Lists for directory
+
+## ssh
 *ssh user@host* connect to *host* as *user*
 *scp -r files user@hosr:path* copy *files* to *path* on *host* *recursively* as *user*
 *ssh-copy-id user@host* add your key to *host* for *user* to enable a keyed or passwordless login
 
-# System info.
+## System info.
 *date* shows current date and time
 *cal* shows current month/calendar
 *uptime* shows current uptime
@@ -29,12 +35,12 @@
 *whereis app* shows possible locations of *app*
 *which app* shows which *app* will be run by default
 
-# Network
+## Network
 *ping host* pings host and outputs results
 *wget file* download *file*
 *wget -c file* continue a stopped download
 
-# Process management
+## Process management
 *ps* display current active processes
 *top* display all running processes
 *kill pid* kill process id *pid*
@@ -43,7 +49,7 @@
 *fg* bring most recent job to foreground
 *fg n* bring job *n* to the foreground
 
-# File permissions
+## File permissions
 *chmod octal file* change permissions of file to *octal*, which can be manuipulated for user, group and world
 - *4* read(r)
 - *2* write(w)
@@ -52,7 +58,7 @@ Examples: *chmod 777* read, write and execute for all
           *chmod 755* rwx for owner, rx for group and world
           See *man chmod* for more options
 
-# File commands
+## File commands
 *ls* directory listing
 *ls -al* formatted listing with hidden(.) files
 *cd dir* change directory to *dir*
@@ -76,7 +82,7 @@ Examples: *chmod 777* read, write and execute for all
 *tail -n [INT] file* output last [INT] lines of file
 *tail -f file* output contents of file as it grows, starting with last 10 lines
 
-# Compression
+## Compression
 *tar cf file.tar files* creates tar *tar.file* containing *files*
 *tar xf file.tar* extracts files from *file.tar*
 *tar czf file.tar.gz files* creates tar with *gzip* compression
@@ -86,13 +92,13 @@ Examples: *chmod 777* read, write and execute for all
 *gzip file* compresses *file* and renames it to *file.gz*
 *gzip -d file.gz* decompresses *file.gz* back to *file*
 
-# Searching
+## Searching
 *grep pattern files* search for *pattern* in *files*
 *grep -r pattern dir* search *recursively* for *pattern* in *dir*
 *command | grep pattern* search for *pattern* in output of *command*
 *locate file* find all instances of *file*
 
-# Shortcuts
+## Shortcuts
 *Ctrl+C* halts current command
 *Ctrl+Z* stops current command and resumes with *fg* in foreground or *bg* in background
 *Ctrl+D* logs out of current session ~*exit*
