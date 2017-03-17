@@ -1,1 +1,12 @@
-File commands
+# File commands
+*ls* directory listing
+*ls -al* formatted listing with hidden(.) files
+*cd dir* change directory to *dir*
+*cd* change to home directory
+*pwd* show current directory
+*mkdir dir* create the directory *dir*
+*rm file* delete *file*
+*rm -r dir* delete directory *dir*
+*rm -f file* force remove *file*
+*rm -rf dir* force remove directory *dir* (use this with extreme caution)
+*cpc file1 /path/to/directory/file2* copy file1 to file2
