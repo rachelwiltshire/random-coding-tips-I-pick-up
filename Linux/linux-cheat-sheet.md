@@ -52,74 +52,126 @@
 - ***which app*** shows which *app* will be run by **default**
 
 ## Network
-*ping host* pings host and outputs results
-*wget file* download *file*
-*wget -c file* continue a stopped download
+- ***ping host*** pings host and outputs results
+
+- ***wget file*** download *file*
+
+- ***wget -c file*** continue a stopped download
 
 ## Process management
-*ps* display current active processes
-*top* display all running processes
-*kill pid* kill process id *pid*
-*killall proc* kill all processes named *proc* (use this with extreme caution)
-*bg* lists stopped or background jobs; resume stopped job in the background
-*fg* bring most recent job to foreground
-*fg n* bring job *n* to the foreground
+- ***ps*** display current active processes
+
+- ***top*** display all running processes
+
+- ***kill pid*** kill process id *pid*
+
+- ***killall proc*** kill all processes named *proc* (use this with extreme caution)
+
+- ***bg*** lists stopped or background jobs; resume stopped job in the background
+
+- ***fg*** bring most recent job to foreground
+
+- ***fg n*** bring job *n* to the foreground
 
 ## File permissions
-*chmod octal file* change permissions of file to *octal*, which can be manuipulated for user, group and world
-- *4* read(r)
-- *2* write(w)
-- *1* execute(x)
-Examples: *chmod 777* read, write and execute for all
-          *chmod 755* rwx for owner, rx for group and world
-          See *man chmod* for more options
+- ***chmod octal file*** change permissions of file to *octal*, which can be manuipulated for user, group and world
+
+- ***4*** read(r)
+
+- ***2*** write(w)
+
+- ***1*** execute(x)
+
+- Examples: ***chmod 777*** read, write and execute for all
+
+            ***chmod 755*** rwx for owner, rx for group and world
+                  
+            See *man chmod* for more options
 
 ## File commands
-*ls* directory listing
-*ls -al* formatted listing with hidden(.) files
-*cd dir* change directory to *dir*
-*cd* change to home directory
-*pwd* show current directory
-*mkdir dir* create the directory *dir*
-*rm file* delete *file*
-*rm -r dir* delete directory *dir*
-*rm -f file* force remove *file*
-*rm -rf dir* force remove directory *dir* (use this with extreme caution)
-*cp file1 /path/to/directory/file2* copy file1 to file2
-*cp -r dir1 /path/to/directory/dir2* copy dir1 to dir2 (create *dir2* if it does not exist)
-*mv file1 file2* rename/remove *file1* to *file2*
-*ln -s file link* create symbolic link to file
-*touch file* create/update *file*
-*cat > file* place standard input into file
-*more file* output contents of file
-*head file* output first 10 lines of file
-*head -n [INT] file* output first [INT] lines of file
-*tail file* output last 10 lines of file
-*tail -n [INT] file* output last [INT] lines of file
-*tail -f file* output contents of file as it grows, starting with last 10 lines
+- ***ls*** directory listing
+
+- ***ls -al*** formatted listing with hidden(.) files
+
+- ***cd dir*** change directory to *dir*
+
+- ***cd*** change to home directory
+
+- ***pwd*** show current directory
+
+- ***mkdir dir*** create the directory *dir*
+
+- ***rm file*** delete *file*
+
+- ***rm -r dir*** delete directory *dir*
+
+- ***rm -f file*** force remove *file*
+
+- ***rm -rf dir*** force remove directory *dir* (use this with extreme caution)
+
+- ***cp file1 /path/to/directory/file2*** copy *file1* to *file2*
+
+- ***cp -r dir1 /path/to/directory/dir2*** copy *dir1* to *dir2* (create *dir2* if it does not exist)
+
+- ***mv file1 file2*** rename/remove *file1* to *file2*
+
+- ***ln -s file link*** create symbolic link to file
+
+- ***touch file*** create/update *file*
+
+- ***cat > file*** place standard input into file
+
+- ***more file*** output contents of file
+
+- ***head file*** output first 10 lines of file
+
+- ***head -n [INT] file*** output first [INT] lines of file
+
+- ***tail file*** output last 10 lines of file
+
+- ***tail -n [INT] file*** output last [INT] lines of file
+
+- ***tail -f file*** output contents of file as it grows, starting with last 10 lines
 
 ## Compression
-*tar cf file.tar files* creates tar *tar.file* containing *files*
-*tar xf file.tar* extracts files from *file.tar*
-*tar czf file.tar.gz files* creates tar with *gzip* compression
-*tar zxf file.tar.gz files* extracts tar using *gzip*
-*tar cjf file.tar.bz2* creates tar with Bzip2 compression
-*tar xjf file.tar bz2* extracts tar using bzip2
-*gzip file* compresses *file* and renames it to *file.gz*
-*gzip -d file.gz* decompresses *file.gz* back to *file*
+- ***tar cf file.tar files*** creates tar *tar.file* containing *files*
+
+- ***tar xf file.tar*** extracts files from *file.tar*
+
+- ***tar czf file.tar.gz files*** creates tar with *gzip* compression
+
+- ***tar zxf file.tar.gz files*** extracts tar using *gzip*
+
+- ***tar cjf file.tar.bz2*** creates tar with Bzip2 compression
+
+- ***tar xjf file.tar bz2*** extracts tar using bzip2
+
+- ***gzip file*** compresses *file* and renames it to *file.gz*
+
+- ***gzip -d file.gz*** decompresses *file.gz* back to *file*
 
 ## Searching
-*grep pattern files* search for *pattern* in *files*
-*grep -r pattern dir* search *recursively* for *pattern* in *dir*
-*command | grep pattern* search for *pattern* in output of *command*
-*locate file* find all instances of *file*
+- ***grep pattern files*** search for *pattern* in *files*
+
+- ***grep -r pattern dir*** search *recursively* for *pattern* in *dir*
+
+- ***command | grep pattern*** search for *pattern* in output of *command*
+
+- ***locate file*** find all instances of *file*
 
 ## Shortcuts
-*Ctrl+C* halts current command
-*Ctrl+Z* stops current command and resumes with *fg* in foreground or *bg* in background
-*Ctrl+D* logs out of current session ~*exit*
-*Ctrl+W* erases one word in current line
-*Ctrl+U* erases whole line
-*Ctrl+R* brings up recent command
-*!!* repeats last command
-*exit* logs out of current session
+- *Ctrl+C* halts current command
+
+- *Ctrl+Z* stops current command and resumes with *fg* in foreground or *bg* in background
+
+- *Ctrl+D* logs out of current session ~*exit*
+
+- *Ctrl+W* erases one word in current line
+
+- *Ctrl+U* erases whole line
+
+- *Ctrl+R* brings up recent command
+
+- *!!* repeats last command
+
+- *exit* logs out of current session
