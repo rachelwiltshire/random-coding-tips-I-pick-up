@@ -82,7 +82,9 @@
 
 - ***1*** execute(x)
 
-- Examples: ***chmod 777*** read, write and execute for all
+- Examples: 
+                     
+            ***chmod 777*** read, write and execute for all
 
             ***chmod 755*** rwx for owner, rx for group and world
                   
