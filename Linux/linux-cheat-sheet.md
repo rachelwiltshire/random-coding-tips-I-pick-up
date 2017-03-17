@@ -5,13 +5,13 @@
 
 - ***klist*** lists *Kerberos User Authentications*
 
-- ***tokens*** lists AFS tokens held
+- ***tokens*** lists AFS *tokens* held
 
 - ***unlog*** destroys current AFS tokens held
 
 - ***fs listquota directory*** shows space used by AFS volume
 
-- ***fs listacl directory*** shows Access Control Lists for directory
+- ***fs listacl directory*** shows ***A****ccess* ***C****ontrol* ***L****ists* for directory
 
 ## ssh
 - ***ssh user@host*** connect to *host* as *user*
@@ -21,21 +21,35 @@
 - ***ssh-copy-id user@host*** add your key to *host* for *user* to enable a keyed or passwordless login
 
 ## System info.
-*date* shows current date and time
-*cal* shows current month/calendar
-*uptime* shows current uptime
-*w* displays who is online
-*whoami* displays who you are logged in as
-*finger user* displays infomation about a *user*
-*uname -a* shows kernel information
-*cat /proc/cpuinfo* shows cpu information
-*cat /proc/meminfo* shows memory information
-*man command* shows *command* manual
-*df* shows disk usage
-*du* shows directory space usage
-*free* shows memory and swap usage
-*whereis app* shows possible locations of *app*
-*which app* shows which *app* will be run by default
+- ***date*** shows current *date* and *time*
+
+- ***cal*** shows current month/*cal*endar
+
+- ***uptime*** shows current *uptime*
+
+- ***w*** displays *who* is online
+
+- ***whoami*** displays *who you are logged in as*
+
+- ***finger user*** displays infomation about a *user*
+
+- ***uname -a*** shows kernel information
+
+- ***cat /proc/cpuinfo*** shows *cpu* information
+
+- ***cat /proc/meminfo*** shows *memory* information
+
+- ***man command*** shows *command* manual
+
+- ***df*** shows disk usage
+
+- ***du*** shows directory space usage
+
+- ***free*** shows memory and swap usage
+
+- ***whereis app*** shows possible locations of *app*
+
+- ***which app*** shows which *app* will be run by **default**
 
 ## Network
 *ping host* pings host and outputs results
