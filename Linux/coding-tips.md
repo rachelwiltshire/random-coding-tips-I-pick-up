@@ -59,7 +59,7 @@ This took forever on the NCBI website - ever heard of comments? To upload files 
 ## To combine two or more files line by line
 ***paste*** < file.xtn > < file.xtn > ***>*** < outputfile.xtn > [pipes to standard out if no outfile specified]
 
-## screen
+## *screen*
 OMG this is the ***most*** useful command I've found whilst attempting to run long jobs. ***screen*** allows the user to execute multiple programs without interrupting the command.
 
 All commands must begin with ***control + a*** to distinguish ***screen*** from the normal shell followed by one of:
