@@ -64,15 +64,15 @@ OMG this is the ***most*** useful command I've found whilst attempting to run lo
 
 All commands must begin with ***control + a*** to distinguish ***screen*** from the normal shell followed by one of:
 
-- ***ctrl+c*** - ***c***reates a new screen to allow multiple sessions
+- ***ctrl+c*** - **c**reates a new screen to allow multiple sessions
 
-- ***ctrl+d*** - ***d***etaches screen session
+- ***ctrl+d*** - **d**etaches screen session
 
-- ***ctrl+n*** - switches to ***n***ext screen session (if more than one session is running)
+- ***ctrl+n*** - switches to **n**ext screen session (if more than one session is running)
 
-- ***ctrl+p*** - switches to ***p***revious screen session (if more than one session is running)
+- ***ctrl+p*** - switches to **p**revious screen session (if more than one session is running)
 
-- ***ctrl+r*** < session > - ***r***econnects to a screen session
+- ***ctrl+r*** < session > - **r**econnects to a screen session
 
 Help can be found here > ***man screen***
 
@@ -87,3 +87,8 @@ Help can be found here > ***man screen***
    4) In the normal shell you can list all your active sessions by typing: ***screen -ls***
   
    5) To leave and finish a session -> ***exit***
+
+## *sed*
+Remember that *sed* outputs to standard out by default so if generating a new file, stipulate a new out file.
+
+***sed 's/what-you-want-to-replace/thing-you-want-to-replace-it-with/g'*** < file > ***>*** < outfile >
