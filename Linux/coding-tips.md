@@ -92,3 +92,6 @@ Help can be found here > ***man screen***
 Remember that *sed* outputs to standard out by default so if generating a new file, stipulate a new out file.
 
 ***sed 's/what-you-want-to-replace/thing-you-want-to-replace-it-with/g'*** < file > ***>*** < outfile >
+
+## To check which version of Python you are running
+- ***python --version***
