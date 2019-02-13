@@ -6,5 +6,7 @@ data.
 
 *<- data[-(R:R),-(C:C)]* or *[-R:-R,-C:-C]*
 
+*data_frame$column <- NULL*
+
 ### Rounding up numbers
 < object > <- *round(< object >,[INT])*
