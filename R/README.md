@@ -10,3 +10,6 @@ data.
 
 ### Rounding up numbers
 < object > <- *round(< object >,[INT])*
+
+### Making maps in R
+Check out Kim Gilbert's page (link in in here) *https://www.molecularecologist.com/2012/09/making-maps-with-r/*
