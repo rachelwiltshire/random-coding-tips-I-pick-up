@@ -1,2 +1,2 @@
-# Random-coding-tips-I-pick-up
+# Random-tips-I-pick-up
 Finally, somewhere sensible to keep these rather than the post-its on my monitors...
